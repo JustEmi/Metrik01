@@ -7,9 +7,9 @@ import java.awt.geom.Ellipse2D;
 import java.util.ArrayList;
 
 public class DrawObject extends Canvas implements MouseListener {
-    private float _x;
-    private float _y;
-
+    private int _x;
+    private int _y;
+    
     public DrawObject() {
         _x =0;
         _y = 0;
@@ -24,8 +24,9 @@ public class DrawObject extends Canvas implements MouseListener {
 
         Graphics2D g2d = (Graphics2D) g;
         g2d.setStroke(new BasicStroke(2.5F));
-        Ellipse2D ellipse = new Ellipse2D.Float(_x,_y,100,100);
-        g2d.draw(ellipse);
+        Rectangle rect = new Rectangle(_x,_y, 50,50);
+        //Ellipse2D ellipse = new Ellipse2D.Float(_x,_y,100,100);
+        g2d.draw(rect);
     }
 
 
