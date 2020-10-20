@@ -7,7 +7,9 @@ package uebung01_brodmann_bothe;
  * Softwaretechnik: Uebung 01
  *
  * Description:
- * Main Class.
+ * The Main class starts the project. It instantiated an object of the
+ * class MainWindow and calls the openWindow-Method. In the following a window 
+ * will be opening with the user interface.
  */
 public class Main {
 

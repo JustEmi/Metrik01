@@ -8,7 +8,6 @@ import java.awt.event.WindowListener;
  * @authors: Emilia Maria Bothe (m26329), Paul Brodmann (m26405)
  * @date 19.10.2020
  * @version: 1.2.2
- * Softwaretechnik: Uebung 01
  *
  * Description:
  * The MainWindow class is the initiator(?) for the window which is later shown.

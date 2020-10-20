@@ -35,6 +35,7 @@ public class DrawObject extends Canvas implements MouseListener, ActionListener{
 
 		mmb.add(_menu);
 	}
+	
 	public float get_x() {
 		return _x;
 	}

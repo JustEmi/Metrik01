@@ -3,11 +3,13 @@ package uebung01_brodmann_bothe;
 import java.awt.*;
 
 /**
- * deprectaed
+ * deprecated
  */
 public class MainMenuBar extends MenuBar {
 
      /*private Menu _menu;
+    /*private Menu _menu;
+>>>>>>> refs/heads/Version_1.2.1
    
 
     public MainMenuBar(){
@@ -15,6 +17,7 @@ public class MainMenuBar extends MenuBar {
         _menu.add(new MenuItem("Farbe: rot")).addActionListener(this);
         _menu.add(new MenuItem("Farbe: gelb"));
         _menu.add(new MenuItem("Farbe: grün"));
+        _menu = new Menu("Hintergrundfarbe-Programm");
 
         MenuItem rot = new MenuItem("Farbe: rot");
         MenuItem gelb = new MenuItem("Farbe: gelb");
@@ -22,8 +25,6 @@ public class MainMenuBar extends MenuBar {
         _menu.add(rot);
         _menu.add(gelb);
         _menu.add(blau);
-
-
 
         add(_menu);
     }*/

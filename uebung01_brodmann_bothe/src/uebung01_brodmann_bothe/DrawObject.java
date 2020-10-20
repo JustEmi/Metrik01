@@ -21,7 +21,7 @@ import java.util.ArrayList;
  */
 public class DrawObject extends Canvas implements MouseListener, ActionListener{
 	
-	// generall attributes
+	// general attributes
 	private float _x, _y; // position of the circles
 	private int counter; // number of circles on the canvas
 	private int i = 0; // position of the coordinates
